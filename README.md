@@ -16,12 +16,12 @@ The analysis focuses on four main areas of e-commerce performance:
 
 ---
 
-# Dashboard Preview
+# Visualizations Preview
 
-![Dashboard Preview](assets/preview.png)
+![Visualizations Preview](assets/preview.png)
 
 A full dashboard export is available in the `/dashboard` folder.  
-The interactive Looker Studio dashboard is available upon request.
+The interactive Looker Studio dashboard is available upon request.  
 All dashboard visualizations are also reproduced in the accompanying notebook using Plotly for transparency and reproducibility of the analysis.
 
 ---
