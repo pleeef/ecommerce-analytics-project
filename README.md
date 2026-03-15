@@ -157,24 +157,25 @@ These analyses help evaluate:
 ---
 
 # Project Structure
+```text
 ecommerce-analytics-project
 │
-├── sql/
-│   ├── 01_cohort_retention.sql
-│   ├── 02_orders_enriched.sql
-│   ├── 03_product_analytics.sql
-│   ├── 04_events_analytics.sql
-│   ├── 05_order_status_analytics.sql
-│   └── 06_convertion_over_time.sql
+├── sql/                             # Optimized BigQuery SQL scripts
+│   ├── 01_cohort_retention.sql       # User loyalty and LTV logic
+│   ├── 02_orders_enriched.sql        # Financial KPIs and MoM growth
+│   ├── 03_product_analytics.sql      # Pareto and Margin analysis
+│   ├── 04_events_analytics.sql       # Funnel and user behavior logs
+│   ├── 05_order_status_analytics.sql # Operational & return rate audits
+│   └── 06_conversion_over_time.sql   # Time-series for CR trends
 │
-├── notebooks/
-│   └── thelook_ecommerce.ipynb
+├── notebooks/                       # Data Science & Visualization
+│   └── thelook_ecommerce.ipynb      # Main Colab/Jupyter analysis
 │
-├── dashboard/
-│   └── thelook_ecommerce.pdf
+├── dashboard/                       # Reporting
+│   └── thelook_ecommerce.pdf        # Looker Studio export version
 │
-├── assets/
-│   └── preview.png
+├── assets/                          # Media for README
+│   └── preview.png                  # Dashboard screenshot
 │
-├── README.md
-└── requirements.txt
+├── README.md                        # Documentation
+└── requirements.txt                 # Python dependencies
