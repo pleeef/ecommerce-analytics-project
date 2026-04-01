@@ -20,9 +20,26 @@ The analysis focuses on four main areas of e-commerce performance:
 
 ![Visualizations Preview](assets/preview.png)
 
-A full dashboard export is available in the `/dashboard` folder.  
-The interactive Looker Studio dashboard is available upon request.  
-All dashboard visualizations are also reproduced in the accompanying notebook using Plotly for transparency and reproducibility of the analysis.
+This project includes **two dashboard implementations**:
+
+### Looker Studio Dashboard
+- Available in `/dashboard/thelook_ecommerce_looker_studio.pdf`
+- Interactive version available upon request
+
+### Power BI Dashboard
+- Available in `/dashboard/thelook_ecommerce_power_bi.pdf`
+- Full `.pbix` file available upon request
+
+Both dashboards are based on the same underlying data model and business logic, but demonstrate different BI tools and visualization approaches.
+
+# Multi-Tool BI Approach
+
+The same business problem is implemented in both Looker Studio and Power BI.
+
+This highlights:
+- ability to adapt analytics across different BI tools
+- understanding of differences in data modeling and visualization layers
+- flexibility in working with various stakeholder environments
 
 ---
 
@@ -145,8 +162,9 @@ These analyses help evaluate:
 - Google BigQuery
 - SQL
 
-**Dashboard**
+**Dashboards**
 - Looker Studio
+- Power BI
 
 **Analysis & Visualization**
 - Python
@@ -171,8 +189,9 @@ ecommerce-analytics-project
 ├── notebooks/                       # Data Science & Visualization
 │   └── thelook_ecommerce.ipynb      # Main Colab/Jupyter analysis
 │
-├── dashboard/                       # Reporting
-│   └── thelook_ecommerce.pdf        # Looker Studio export version
+├── dashboard/                       # BI dashboards (Looker Studio & Power BI)
+│   ├── thelook_ecommerce_looker_studio.pdf
+│   └── thelook_ecommerce_power_bi.pdf
 │
 ├── assets/                          # Media for README
 │   └── preview.png                  # Dashboard screenshot
